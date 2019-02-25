@@ -29,3 +29,9 @@ nav.navbar-transparente{
     color: rgba(0,0,0,0);
     border-color: rgba(0,0,0, 0.0);
 }
+
+.divisor{
+	width: 1px;
+	margin: 12px 15px;
+	background: #EAEAEA;
+}
