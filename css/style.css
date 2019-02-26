@@ -159,6 +159,7 @@ footer ul > li{
 @media (max-width: 575.98px) {
 	.btn-custom{margin: 10px 15px; border-radius: 200px;}
 	h1{font-size: 4em;}
+	.logo-mobile{text-align: center;}
 }
 
 /* Small devices (landscape phones, 576px and up) */
