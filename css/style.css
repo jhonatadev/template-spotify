@@ -125,6 +125,35 @@ h3{
 	padding-left: 80px;
 }
 
+/* Rodapé */
+footer{
+	background: #000000;
+	padding: 50px 0px 20px 0;
+	position: relative;
+}
+footer h4{
+	color: #919496;
+	font-size: 0.8em;
+	text-transform: uppercase;
+}
+
+footer .navbar-nav a{
+	color: #E9E9E9;
+	font-size: 0.8em;
+}
+footer .navbar-nav a:hover{
+	color: #7ADFE5;
+	text-decoration: none;
+	transition: 0.5s;
+}
+footer ul{
+	list-style: none;
+}
+footer ul > li{
+	float: right;
+	margin: 0 10px;
+}
+
 /* Media Queries */
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
