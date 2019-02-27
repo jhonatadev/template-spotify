@@ -66,13 +66,13 @@ nav.navbar-transparente{
 	color: #F3F3F3;
 }
 
-.btn-branco{
-	border: 2px solid white;
-}
+.btn-branco{border: 2px solid white;}
 .btn-branco:hover{
 	background-color: white;
 	color: black;
 }
+
+.carousel-control-next, .carousel-control-prev{width: 5%;} 
 
 /* Section servicos */
 .caixa{
@@ -158,19 +158,19 @@ footer ul > li{
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
 	.btn-custom{margin: 10px 15px; border-radius: 200px;}
-	h1{font-size: 4em;}
+	h1{font-size: 4em; margin-bottom: 75px;}
 	.logo-mobile{text-align: center;}
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
 	.btn-custom{margin: 10px 15px; border-radius: 200px;}
-	h1{font-size: 4em;}
+	h1{font-size: 4em; margin-bottom: 75px;}
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
-	h1{font-size: 4em;}
+	h1{font-size: 4em;} 
 }
 
 /* Large devices (desktops, 992px and up) */

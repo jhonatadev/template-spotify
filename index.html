@@ -3,6 +3,7 @@
   <head>
     <!-- Meta tags Obrigatórias -->
     <meta charset="utf-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
@@ -24,7 +25,8 @@
     
     <header><!-- Inicio Cabecalho -->
       <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-transparente">
-        <div class="container">          
+        <div class="container"> 
+
           <a href="index.html" class="navbar-brand ml-4">
             <img src="imagens/spotify.svg" width="142" alt="Spotify logo">
           </a>
@@ -51,10 +53,32 @@
       <div class="container align-self-center">
         <div class="row">
           <div class="col-md-12 capa">
-            <h1>Música para todos.</h1>
-            <h4>Milhões de músicas à sua escolha. E nem precisa de cartão de crédito.</h4>
-            <a href="#" class="btn btn-custom btn-roxo">Aproveite o Spotify Free</a>
-            <a href="#" class="btn btn-custom btn-branco">Obter Spotify Premium</a>
+
+            <div id="carrousel-spotify" class="carousel slide" data-ride="carouse"><!-- Carousel slide -->
+              <div class="carousel-inner"><!-- Inner -->
+                <div class="carousel-item active">
+                    <h1>Música para todos.</h1>
+                    <a href="#" class="btn btn-custom btn-roxo">Aproveite o Spotify Free</a>
+                    <a href="#" class="btn btn-custom btn-branco">Obter Spotify Premium</a>
+                </div>
+                <div class="carousel-item">
+                    <h1>As melhores rádios</h1>
+                    <a href="#" class="btn btn-custom btn-roxo"><i class="fa fa-music"></i> Ouça agora</a>
+                </div>
+              </div><!-- Fim Inner -->
+
+              <!-- Controles -->
+                <a href="#carrousel-spotify" class="carousel-control-prev" data-slide="prev">
+                  <i class="fas fa-angle-left fa-3x"></i>
+                </a>             
+
+                <a href="#carrousel-spotify" class="carousel-control-next" data-slide="next">
+                  <i class="fas fa-angle-right fa-3x"></i>
+                </a>
+              <!-- Fim Controles -->                
+
+            </div><!-- Fim Carousel slide -->
+
           </div>
         </div>
       </div>
@@ -121,7 +145,7 @@
     <footer><!-- Inicio rodapé -->
       <div class="container">
         <div class="row">
-          <div class="col-md-2 mb-4 logo-mobile"><img src="imagens/spotify.svg" width="142"></div>
+          <div class="col-md-2 mb-4 logo-mobile"><a href="index.html"><img src="imagens/spotify.svg" width="142"></a></div>
           <div class="col-md-2 mb-4">
             <h4>Company</h4>
               <ul class="navbar-nav">
@@ -160,11 +184,6 @@
       </div>
     </footer><!-- Fim rodapé -->
 
-    
-
-
-
-    
 
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
