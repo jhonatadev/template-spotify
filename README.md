@@ -1,2 +1,5 @@
-# Template-spotify
+# Template Spotify
+
+---
+
 Recriação do site da Spotify
